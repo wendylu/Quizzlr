@@ -1,0 +1,37 @@
+10
+
+dir
+207
+svn+ssh://myth.stanford.edu/afs/ir.stanford.edu/users/p/o/potatoes/Documents/cs108/quizzlr/quizzlr/src/quizzlr
+svn+ssh://myth.stanford.edu/afs/ir.stanford.edu/users/p/o/potatoes/Documents/cs108/quizzlr
+
+
+
+2012-03-17T01:04:51.138950Z
+206
+davidlo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b194c28c-2416-4efa-83e1-3c92308fa9c5
+
+backend
+dir
+
+quiz
+dir
+
+user
+dir
+

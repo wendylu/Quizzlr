@@ -1,0 +1,380 @@
+body {
+	margin: 0;
+	background-color: #EDF2FA;
+	font-family: 'Inder';
+}
+
+a{
+	color:blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.tag {
+	border-radius: 3px;
+	border: 1px #333;
+	background-color: #A7B9D3;
+	padding: 2px;
+	margin: 7px;
+	display: inline-block;
+}
+
+#cover{
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background-color: #D4D4D4;
+	opacity:.7;
+	z-index:10;
+}
+
+#createBox{
+	position:fixed;
+	top:40%;
+	left:40%;
+	width:20%;
+	background-color:white;
+	border:1px solid #D4D4D4;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	box-shadow: 5px 5px 2px #888;
+	z-index:11;
+	text-align:center;
+	padding: 5px 5px 5px 5px;
+}
+
+#header{
+	background: rgb(125,185,232); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(125,185,232,1) 0%, rgba(32,124,202,1) 49%, rgba(59,103,158,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,185,232,1)), color-stop(49%,rgba(32,124,202,1)), color-stop(100%,rgba(59,103,158,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(59,103,158,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(59,103,158,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(59,103,158,1) 100%); /* IE10+ */
+background: linear-gradient(top, rgba(125,185,232,1) 0%,rgba(32,124,202,1) 49%,rgba(59,103,158,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#3b679e',GradientType=0 ); /* IE6-9 */
+
+	/*background-color: #3d79d0;*/
+	position:fixed;
+	top:0;
+	z-index:3;
+	display:block;
+	margin:0;
+	width:100%;
+	float:left;
+	height:40px;
+	box-shadow:0 0 20px 0 #888;
+}
+
+#header-items{
+	display:block;
+	height:40px;
+	width:960px;
+	margin:0px auto;
+}
+
+td, th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#logo{
+	position:absolute;
+}
+
+#friendNotification{
+	left:112px;
+}
+
+#noteNotification{
+	left:150px;
+}
+
+#challengeNotification{
+	left:190px;
+}
+
+.notification{
+	position:absolute;
+	bottom:40px;
+	z-index:2;
+}
+
+#friendNum{
+	right:87px;
+}
+#noteNum{
+	right:50px;
+}
+#challengeNum{
+	right:9px;
+}
+
+.newNum{
+	position:absolute;
+	bottom:46px;
+	z-index:4;
+}
+
+.icon{
+	z-index:3;
+}
+
+#headerName{
+	display:inline-block;
+	width:6em;
+	height:1.2em;
+	overflow:hidden;
+	font-weight:bold;
+	position:relative;
+	bottom:7px;
+}
+
+#search{
+	position:absolute;
+	top:8px;
+	left:150px;
+}
+
+.ui-menu{
+	background-color:white;
+	border:1px solid #D4D4D4;
+	width:300px;
+	padding:5px 5px 5px 5px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    list-style-type: none;
+    position: absolute;
+    top: 12px;
+}
+
+.startButton{
+	background-color:#3F3;
+	border:1px solid black;
+	width:300px;
+	height:50px;
+	text-align: center;
+	font-weight:bold;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size: 30px;
+	 margin-left: auto;
+    margin-right: auto;
+}
+
+.startButton a{
+	position:relative;
+	top: 4px;
+	text-color:black;
+	text-decoration:none;
+}
+
+.startButton:hover{
+	background-color: #BBF2C8;
+}
+
+.ui-menu-item:hover{
+	background-color:#DFDFDF;
+}
+
+#login{
+	position:absolute;
+	left:760px;
+	width:220px;
+	top:11px;
+	color:white;
+	text-align:center;
+}
+
+#login a{
+	color: #e5e5e5;
+	text-decoration:none;
+}
+
+#login a:hover{
+	color: white;
+}
+
+#loginbox a{
+	color:blue;
+}
+
+#loginbox a:hover{
+	color:blue;
+}
+.bullshit{
+	border:1px solid #D4D4D4;
+	padding:5px 5px 5px 5px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+#loginbox{
+	z-index:3;
+	border:1px solid #D4D4D4;
+	background:white;
+	padding:5px 5px 5px 5px;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    margin-top:8px;
+	box-shadow: 5px 5px 2px #888;
+}
+
+#loginform{
+	padding: 3px 0px 5px;
+}
+
+#TOOBAD{
+	font-size:150px;
+	position:absolute;
+	text-align:center;
+	left:30%;
+	top:60px;
+	border:2px solid black;
+	background: white;
+	z-index:11;
+}
+
+
+#main{
+	width:960px;
+	margin: 50px auto;
+	padding-bottom: 30px;
+}
+
+#welcome
+{
+	text-align:center;
+}
+
+.subcontent p
+{
+	margin:0;
+}
+
+/***************************
+CENTER CONTENTS
+****************************/
+#contents,
+.contents{
+	width:755px;
+	float: left;
+}
+.content{
+	background:white;
+	border:1px solid #D4D4D4;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	box-shadow: 5px 5px 2px #888;
+	margin-bottom:20px;
+	padding: 10px 10px 10px 10px;
+	overflow: auto;
+}
+.subcontent{
+	background:white;
+	border:1px solid #D4D4D4;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	box-shadow: 5px 5px 2px #888;
+	left:60px;
+	margin-bottom:5px;
+	padding: 3px 5px 3px 5px;
+}
+
+.adminOptions{
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	border:1px solid #D4D4D4;
+	-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    position:relative;
+    width:200px;
+    text-align: center;
+}
+
+.left-content{
+	margin: 5px 0px 5px 0px;
+	width:50%;
+	float:left;
+	padding-bottom:10px;
+}
+
+.right-content{
+	margin: 5px 0px 5px 0px;
+	float:right;
+	width:50%;
+	padding-bottom:10px;
+}
+
+.extraAnswer{
+	display:inline;
+}
+
+#blank1{
+	position:relative;
+	top:6px;
+}
+
+#blank2{
+	position:relative;
+	top:25px;
+}
+
+.sidebar img{
+	width:160px;
+	padding-top:5px;
+}
+
+.questionPicture{
+	max-height: 480px;
+	max-width: 640px;
+  	overflow: hidden;
+}
+/***************************
+SIDE CONTENT
+****************************/
+#side{
+	float:right;
+}
+
+.sidebar{
+	position:relative;
+	background:white;
+	width: 160px;
+	margin:5px 10px 0px 0px;
+	border:1px solid #D4D4D4;
+		-moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+	box-shadow: 5px 5px 2px #888;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
+}
+
+/***************************
+FOOTER STYLING
+****************************/
+#footer{
+	margin: 10px 0;
+	text-align:center;
+}
